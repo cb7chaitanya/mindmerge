@@ -3,7 +3,7 @@ import {Container, PostForm} from '../components/index.js'
 
 function AddPost() {
   return (
-    <div>
+    <div className='overflow-hidden'>
         <Container>
             <PostForm />
         </Container>
