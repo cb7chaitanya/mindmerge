@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# Mind Merge
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+It is a simple blog application made with React Js, Tailwind Css, component libraries like FLowbite, animations in react using Lottie React, state management tools like Redux Toolkit and React Routing
 
-## Available Scripts
+## Technologies used
 
-In the project directory, you can run:
+#### - ReactJs: For handling the client side of the website
+#### - Appwrite: An open-source backend server designed to simplify the process of building and managing web and mobile applications.
+#### - Redux Toolkit: For efficient State management 
+#### - React Router DOM:  A library for declarative routing in React applications.
+#### - Tailwind CSS: A CSS framework for building modern web applications.
+#### - Lottie React: An animation library for creating fluid animations in React applications
+#### - TinyMCE/React: A platform-independent web-based JavaScript HTML editor control, used to enable text editing capabilities within web applications. 
+#### - HTML React Parser: A library that allows developers to parse HTML strings and convert them into React components.
+#### - React-Hook-Form: A lightweight and performant library for managing form state in React applications.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Features 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### 1.User Authentication: Secure Registration, Password Encryption and Session Management provided with the help of Appwrite.
 
-### `npm test`
+#### 2. Blog Publishing: One can set content, upload a cover image for the blog, set the active or inactive status for a specific blog, set title according to one's needs while creating a blog in the website's built in Content Editing space built using TinyMCE/React.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### 3. Editing Blogs: A user can de list the blog from the blog's list by setting the inactive or active flag as per the user's needs, a user can also update the content, cover image or title of an already published blog too.
 
-### `npm run build`
+#### 4. Deleting Blogs: A user can also delete the blog if they want to remove the content from the website entirely.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+#### 5. Customizable Styling: Tailwind CSS enables easy customization of all the UI components.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### 6.Animations: Incorporates Lottie React to incorporate animations in the application.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+#### 7. Component Driven approach: A collection of reusable, self-contained components. Each component encapsulates a specific piece of functionality or user interface element and can be easily composed and reused across different parts of the application.
 
-### `npm run eject`
+## References
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Tutorial I followed along: https://youtube.com/playlist?list=PLu71SKxNbfoDqgPchmvIsL4hTnJIrtige&si=ZJFi-hV6g3tlYclU
